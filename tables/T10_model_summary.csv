@@ -1,0 +1,17 @@
+,value
+train_months,132
+test_months,57
+test_outperform_share,0.47368421052631576
+chosen_C,10.0
+cv_auc,0.5303571428571429
+test_auc,0.4604938271604938
+test_auc_ci_low,0.29556370353784145
+test_auc_ci_high,0.6111559139784944
+test_accuracy,0.47368421052631576
+naive_accuracy,0.5263157894736842
+test_balanced_accuracy,0.4722222222222222
+placebo_auc_mean,0.49724074074074076
+placebo_p_value,0.725
+walk_forward_auc,0.46790123456790117
+live_month,2026-10
+live_prob_outperform_next_month,0.5322209608583347

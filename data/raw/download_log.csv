@@ -1,0 +1,5 @@
+file,source,first_date,last_date,rows,file_saved_at
+yahoo_BRENT_FUT.csv,Yahoo Finance,2010-01-04,2026-11-20,4217,2026-11-22 17:41
+yahoo_FTSE250.csv,Yahoo Finance,2010-01-04,2026-11-20,4266,2026-11-22 17:41
+yahoo_GBPUSD.csv,Yahoo Finance,2010-01-01,2026-11-22,4397,2026-11-22 17:41
+yahoo_HBR.csv,Yahoo Finance,2021-04-01,2026-11-20,1424,2026-11-22 17:41

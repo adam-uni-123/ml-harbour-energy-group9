@@ -1,0 +1,8 @@
+file,description,source
+bloomberg_data_filled.xlsx,"Harbour (Premier Oil before Apr 2021) and FTSE 250 monthly prices and total-return indices, dividends, consensus","Bloomberg L.P. (Excel add-in), downloaded 22 Nov 2026"
+team_data_filled.xlsx,"Team data pack: financial history, consensus, discount-rate inputs, futures curves, peers, share performance, deals","Bloomberg L.P. (Excel add-in), downloaded 22 Nov 2026"
+yahoo_BRENT_FUT.csv,"Brent crude front-month futures (BZ=F), daily",Yahoo Finance via yfinance
+yahoo_GBPUSD.csv,"GBP/USD exchange rate (GBPUSD=X), daily",Yahoo Finance via yfinance
+yahoo_HBR.csv,"Harbour Energy share price (HBR.L), daily; used to check the Bloomberg series",Yahoo Finance via yfinance
+yahoo_FTSE250.csv,"FTSE 250 index (^FTMC), daily; used to check the Bloomberg series",Yahoo Finance via yfinance
+fred_PNGASEUUSDM.csv,"IMF global price of natural gas, EU, US$/mmbtu, monthly average","FRED, Federal Reserve Bank of St. Louis"

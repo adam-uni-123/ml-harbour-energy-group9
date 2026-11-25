@@ -1,0 +1,4 @@
+log_built_at: 2026-11-22 17:58 UTC
+python: 3.14.0
+pandas: 3.0.5
+yfinance: 1.7.0

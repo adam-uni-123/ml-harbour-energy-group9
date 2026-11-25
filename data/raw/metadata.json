@@ -1,0 +1,54 @@
+{
+  "project": "FI4008 Group Assessment (Group 9): Harbour Energy plc (LSE: HBR)",
+  "valuation_date": "2026-11-20",
+  "downloaded": "2026-11-22",
+  "notes": [
+    "Bloomberg files were filled on a university Bloomberg terminal and saved as values. The team data pack's tab names were later shortened; no values changed.",
+    "Yahoo and FRED files were saved by download_data.py and download_fred.py.",
+    "main.py stops if any file listed here has changed since download."
+  ],
+  "files": [
+    {
+      "file": "bloomberg_data_filled.xlsx",
+      "description": "Harbour (Premier Oil before Apr 2021) and FTSE 250 monthly prices and total-return indices, dividends, consensus",
+      "source": "Bloomberg L.P. (Excel add-in), downloaded 22 Nov 2026",
+      "sha256": "ab8ddf699dbe0fecb246d5ec302e13d3fbe5a0984ca3b21e9778d9169cfa3766"
+    },
+    {
+      "file": "team_data_filled.xlsx",
+      "description": "Team data pack: financial history, consensus, discount-rate inputs, futures curves, peers, share performance, deals",
+      "source": "Bloomberg L.P. (Excel add-in), downloaded 22 Nov 2026",
+      "sha256": "f899ce14fe42c4b2da749e3910ecf13efce6d46b2b58c623ae6255e508684c69"
+    },
+    {
+      "file": "yahoo_BRENT_FUT.csv",
+      "description": "Brent crude front-month futures (BZ=F), daily",
+      "source": "Yahoo Finance via yfinance",
+      "sha256": "8ad4545547ad9f87a9d1cdbd5be93eab66f053dced798ef6396ccfb469c1e577"
+    },
+    {
+      "file": "yahoo_GBPUSD.csv",
+      "description": "GBP/USD exchange rate (GBPUSD=X), daily",
+      "source": "Yahoo Finance via yfinance",
+      "sha256": "94f4cdc186d09f19f629f4f1c8d01dcb25ccad9e847bf80761ac9056651b6029"
+    },
+    {
+      "file": "yahoo_HBR.csv",
+      "description": "Harbour Energy share price (HBR.L), daily; used to check the Bloomberg series",
+      "source": "Yahoo Finance via yfinance",
+      "sha256": "d3a62d4fb0377eda258e50b212ace6e7cf95ae66dc362fede2d5c9934beac429"
+    },
+    {
+      "file": "yahoo_FTSE250.csv",
+      "description": "FTSE 250 index (^FTMC), daily; used to check the Bloomberg series",
+      "source": "Yahoo Finance via yfinance",
+      "sha256": "63b97aa1231acc2319fbfabae8bbfa640720808d64d57b5a82bd1363979134ee"
+    },
+    {
+      "file": "fred_PNGASEUUSDM.csv",
+      "description": "IMF global price of natural gas, EU, US$/mmbtu, monthly average",
+      "source": "FRED, Federal Reserve Bank of St. Louis",
+      "sha256": "c9d987779496df731576fce5acdbc64d9df0ebab49c9249fcf1ee6ac06a864f4"
+    }
+  ]
+}

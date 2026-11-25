@@ -1,0 +1,6 @@
+scenario,cum_production_mmboe,ev_usd_m,pence,upside_%
+"Base case (futures prices, plateau to 2030, -12% a year after)",1872,14736,211,-15.7
+"Harbour's own long-term prices from 2029 ($75 Brent, $11 gas)",1872,16606,291,16.2
+"Growth case: LLOG + Mexico hold plateau to 2032, -10% after",2320,17086,312,24.6
+Both of the above,2320,19512,417,66.5
+Prices 10% below futures,1872,11819,85,-66.1
